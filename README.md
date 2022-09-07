@@ -25,7 +25,8 @@ Compile:
 //add
 
 Run:
-//Add
+exec file.obj
 
 Controls:
-// add here
+WASD to move object
+Arrow keys to rotate
