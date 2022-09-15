@@ -5,7 +5,7 @@ This program essentially takes 3 dimensional objects as described in an .obj fil
 There are options to view the object as a wireframe, or with filled in faces (of randomly assigned colors so that they can be seen distinctly since 
 this code does not function as a full renderer)
 
-The work behind this involves a lot of matrix mathematics.
+The work behind this involves a lot of matrix mathematics to properly rotate and move each point within a 3D space, and then project it to the 2D screen
 
 Generally speaking, the code is not perfect. Given some particularly odd shaped objects, they may not render correctly due to implementation methods.
 Rather than calculating which face would be foremost for each 2D pixel location, I took the average Z value (distance from camera/screen) to each
