@@ -22,10 +22,10 @@ shifting, and zooming in on the object has a near immediate effect.
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Compile:
-//add
+make
 
 Run:
-exec file.obj
+./assn2 file.obj
 
 Controls:
 WASD to move object
